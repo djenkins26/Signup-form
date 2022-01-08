@@ -1,3 +1,79 @@
+
+
+h1 {
+  color: black;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  border-color: black;
+  border-width: medium;
+}
+
+div {
+  width: 400px;
+  padding: 10px;
+  padding-left: 35px;
+  border: 5px black;
+  margin: 0;
+}
+
+.FormSignup {
+  border-radius: 5px;
+  border: solid black;
+}
+.form-inputs {
+  color: black;
+  width: auto;
+}
+
+.form-details {
+  border-style: solid center;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 100px;
+  background-color: white;
+}
+
+#fullname {
+  text-align: center;
+  border-radius: 7px;
+}
+
+#email {
+  text-align: center;
+  border-radius: 7px;
+}
+
+#password {
+  text-align: center;
+  border-radius: 7px;
+}
+
+#password2 {
+  text-align: center;
+  border-radius: 7px;
+}
+
+button {
+  /* display: inline-block; */
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: solid black;
+  width: 30%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+body {
+  background-image: url("/src/Robert Frost.png");
+  background-size: cover;
+}
+
 .form-inputs p {
   color: red;
 }

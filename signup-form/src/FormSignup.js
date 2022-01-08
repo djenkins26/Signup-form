@@ -1,7 +1,7 @@
 import React from 'react';
 import useForm from './useForm';
 import validate from './validateInfo';
-import './Form.css'
+import './Form.css';
 
 const FormSignup = ({ submitForm }) => {
   //restructure
@@ -11,12 +11,12 @@ const FormSignup = ({ submitForm }) => {
   return (
     <div className= "form-details">
       <form className="form" onSubmit={handleSubmit}>
-        <h1>Welcome! Sign up below.
-        </h1>
+        <h1>Welcome!</h1>
+        <h2> Sign up Below.</h2>
         <div className="form-inputs">
           <label htmlFor="fullname"
           className="form-label">
-            Fullname
+            Fullname:
           </label>
           <input
             id="fullname"
@@ -32,7 +32,7 @@ const FormSignup = ({ submitForm }) => {
         <div className="form-inputs">
           <label htmlFor="email"
           className="form-label">
-          Email
+          Email:
         </label>
         <input
           id="email"
@@ -48,7 +48,7 @@ const FormSignup = ({ submitForm }) => {
       <div className="form-inputs">
         <label htmlFor="password"
         className="form-label">
-        Password
+        Password:
       </label>
       <input
         id="password"
@@ -64,7 +64,7 @@ const FormSignup = ({ submitForm }) => {
     <div className="form-inputs">
       <label htmlFor="password2"
       className="form-label">
-      Confirm Password
+      Confirm Password:
     </label>
     <input
       id="password2"
@@ -77,13 +77,12 @@ const FormSignup = ({ submitForm }) => {
     />
     {errors.password2 && <p>{errors.password2}</p>}
   </div>
+
   <button className="form=input-btn"
   type="submit">
     Sign up
   </button>
-  <span className="form-input-login">
-    Already have an account? Login <a href='#'>here</a>
-  </span>
+
   </form>
   </div>
   );

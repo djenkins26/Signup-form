@@ -5,7 +5,7 @@ export default function validateInfo(values) {
     errors.fullname = "fullname required"
   }
 
-  //email
+  //email, else if needs to have @ and .com
   if(!values.email) {
     errors.email = "Email required"
   } else if(!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
