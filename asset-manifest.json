@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Signup-form/static/css/main.52349298.chunk.css",
+    "main.js": "/Signup-form/static/js/main.04765d98.chunk.js",
+    "main.js.map": "/Signup-form/static/js/main.04765d98.chunk.js.map",
+    "runtime-main.js": "/Signup-form/static/js/runtime-main.0e7b730f.js",
+    "runtime-main.js.map": "/Signup-form/static/js/runtime-main.0e7b730f.js.map",
+    "static/css/2.8c0e6b67.chunk.css": "/Signup-form/static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.f1e98c85.chunk.js": "/Signup-form/static/js/2.f1e98c85.chunk.js",
+    "static/js/2.f1e98c85.chunk.js.map": "/Signup-form/static/js/2.f1e98c85.chunk.js.map",
+    "index.html": "/Signup-form/index.html",
+    "static/css/2.8c0e6b67.chunk.css.map": "/Signup-form/static/css/2.8c0e6b67.chunk.css.map",
+    "static/css/main.52349298.chunk.css.map": "/Signup-form/static/css/main.52349298.chunk.css.map",
+    "static/js/2.f1e98c85.chunk.js.LICENSE.txt": "/Signup-form/static/js/2.f1e98c85.chunk.js.LICENSE.txt",
+    "static/media/Form.css": "/Signup-form/static/media/Robert Frost.bfe5d29f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e7b730f.js",
+    "static/css/2.8c0e6b67.chunk.css",
+    "static/js/2.f1e98c85.chunk.js",
+    "static/css/main.52349298.chunk.css",
+    "static/js/main.04765d98.chunk.js"
+  ]
+}
